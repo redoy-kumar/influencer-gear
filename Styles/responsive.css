@@ -1,0 +1,49 @@
+/* Responsive style for phone */
+@media screen and (max-width: 576px) {
+    .nav-container {
+        flex-direction: column;
+    }
+
+    .nav-container a {
+        font-size: 12px;
+    }
+
+    .banner-container {
+        flex-direction: column-reverse;
+        text-align: center;
+        margin-bottom: 65px;
+    }
+
+    .camera {
+        width: 380px;
+    }
+
+    .banner-container img {
+        width: 100%;
+    }
+
+    .prebook button {
+        border-radius: 41px;
+        background: rgb(224, 44, 109);
+        color: white;
+        padding: 10px 24px 10px 24px;
+        border: none;
+        font-size: 1rem;
+        font-weight: 500;
+        cursor: pointer;
+    }
+
+    .prebook button>img {
+        width: 16px;
+        height: 14px;
+        margin-left: 5px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sponsor-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+}
