@@ -7,8 +7,8 @@
     .nav-container {
         max-width: 332px;
         margin: 0 auto;
-        border: 1px solid green;
         justify-content: space-around;
+        margin-bottom: 40px;
     }
 
     .nav-container h2 {
@@ -33,7 +33,7 @@
         width: 257px;
         height: 257px;
         margin: 0 auto;
-        left: 110px;
+        left: 75px;
     }
 
     #image-camera {
