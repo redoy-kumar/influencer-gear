@@ -139,3 +139,32 @@
     justify-content: end;
     text-decoration: none;
 }
+
+/* Featured Product Section */
+.featured-product-container{
+    max-width: 1110px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.featured-product-container>div{
+    margin-left: 95px;
+    margin-top: 22px;
+}
+
+.featured-product-container>div p{
+    padding-right: 109px;
+    color: rgb(108, 108, 108);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.featured-product-container>div button{
+    background: rgb(224, 44, 109);
+    color: white;
+    padding: 10px 24px 10px 24px;
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+
