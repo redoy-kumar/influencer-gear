@@ -28,11 +28,13 @@
 
 
 /* Navbar section */
+#ham-burger-menu, #shopping-cart{
+    display: none;
+}
 .nav-container {
     max-width: 1180px;
-    border: 2px solid black;
     margin: 0 auto;
-    margin-top: 80px;
+    margin-top: 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -60,11 +62,11 @@
     gap: 130px;
 }
 
-.preebook {
+.prebook-container {
     max-width: 582px;
 }
 
-.prebook button {
+.prebook-container button {
     border-radius: 41px;
     background: rgb(224, 44, 109);
     color: white;
@@ -94,6 +96,7 @@
     margin: 0 auto;
     margin-top: 100px;
     text-align: center;
+    margin-bottom: 100px;
 }
 
 .popular-grid-box {
@@ -123,4 +126,15 @@
 .rating {
     margin-top: -30px;
     display: flex;
+}
+
+.see-more-container a{
+    margin-top: 50px;
+    color: #E02C6DDE;
+    font-size: 1rem;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: end;
+    text-decoration: none;
 }

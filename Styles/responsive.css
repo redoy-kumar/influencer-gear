@@ -1,17 +1,53 @@
 /* Responsive style for phone */
 @media screen and (max-width: 576px) {
+    .nav-container ul {
+        display: none;
+    }
+
     .nav-container {
-        flex-direction: column;
+        max-width: 332px;
+        margin: 0 auto;
+        border: 1px solid green;
+        justify-content: space-around;
+    }
+
+    .nav-container h2 {
+        font-size: 1rem;
+    }
+
+    #shopping-cart {
+        display: block;
+    }
+
+    #ham-burger-menu {
+        display: block;
     }
 
     .nav-container a {
         font-size: 12px;
     }
 
+    /* Banner section */
+
+    #bg-camera {
+        width: 257px;
+        height: 257px;
+        margin: 0 auto;
+        left: 110px;
+    }
+
+    #image-camera {
+        width: 202px;
+        height: 190px;
+        margin-top: 30px;
+    }
+
     .banner-container {
+        margin: 0 auto;
         flex-direction: column-reverse;
         text-align: center;
         margin-bottom: 65px;
+        max-width: 332px;
     }
 
     .camera {
@@ -22,7 +58,24 @@
         width: 100%;
     }
 
-    .prebook button {
+    .prebook-container {
+        margin: -80px;
+        max-width: 332px;
+        margin-bottom: 40px;
+    }
+
+    .prebook-container h1 {
+        color: rgb(58, 58, 58);
+        font-size: 1.75rem;
+        font-weight: 700;
+    }
+    .prebook-container p {
+        color: rgb(58, 58, 58);
+        font-size: 0.875rem;
+        font-weight: 500;
+    }
+
+    .prebook-container button {
         border-radius: 41px;
         background: rgb(224, 44, 109);
         color: white;
@@ -33,7 +86,7 @@
         cursor: pointer;
     }
 
-    .prebook button>img {
+    .prebook-container button>img {
         width: 16px;
         height: 14px;
         margin-left: 5px;
@@ -41,9 +94,17 @@
         justify-content: center;
     }
 
+    /* Sponsor Section */
     .sponsor-container {
+        max-width: 275.21px;
         flex-wrap: wrap;
         justify-content: center;
-        gap: 20px;
+        gap: 15px;
+        margin-top: -40px;
+    }
+
+    .sponsor-container img{
+        width: 57px;
+        height: 50px;
     }
 }

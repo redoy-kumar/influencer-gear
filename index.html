@@ -7,13 +7,18 @@
     <title>Influencer Gear</title>
     <link rel="stylesheet" href="Styles/style.css">
     <link rel="stylesheet" href="Styles/responsive.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body class="set-font">
 
     <!-- Header Section -->
     <header>
+
+        <!-- Nav bar section -->
         <nav class="nav-container">
+            <i id="ham-burger-menu" class="fa-solid fa-bars"></i>
             <h2>Influencer products</h2>
             <ul>
                 <li><a href="#">Home</a></li>
@@ -23,10 +28,12 @@
                 <li><a href="#"><img src="logos/search.svg" alt=""></a></li>
                 <li><a href="#"><img src="logos/shopping-cart.svg" alt=""></a></li>
             </ul>
+            <a id="shopping-cart" href="#"><img src="logos/shopping-cart.svg" alt=""></a>
         </nav>
 
+        <!-- Banner section -->
         <div class="banner-container">
-            <div class="prebook">
+            <div class="prebook-container">
                 <h1>Start your Journey as <br> Influencer</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sem vestibulum sed scelerisque eros. Lectus
                     faucibus.</p>
@@ -34,7 +41,7 @@
             </div>
             <div class="camera">
                 <img id="bg-camera" src="logos/camera-background.png" alt="">
-                <img src="images/main-camera.png" alt="">
+                <img id="image-camera" src="images/main-camera.png" alt="">
             </div>
         </div>
     </header>
@@ -51,6 +58,7 @@
             <img src="logos/Target.svg" alt="">
         </section>
 
+        <!-- Ppopular Collection Section -->
         <section class="popolar-collection-container">
             <h2>Popular Collection</h2>
             <div class="popular-grid-box">
@@ -225,6 +233,10 @@
                         </p>
                     </div>
                 </div>
+            </div>
+
+            <div class="see-more-container">
+                <a href="">See More <img src="logos/arrow-forward.svg" alt=""></a>
             </div>
         </section>
     </main>
